@@ -81,7 +81,7 @@ ECommerceApp/
 
 ### Build
 ```
-cd /home/laxman/my_app/ECommerceApp/build
-qmake ..
+make clean
+qmake 
 make
 ```
