@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CartWindow</class>
+ <widget class="QMainWindow" name="CartWindow">
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QListWidget" name="cartList"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="checkoutButton">
+      <property name="text">
+       <string>Checkout</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

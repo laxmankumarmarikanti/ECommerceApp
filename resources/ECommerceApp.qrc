@@ -1,0 +1,15 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/ui">
+        <file>ui/loginwindow.ui</file>
+        <file>ui/mainwindow.ui</file>
+        <file>ui/cartwindow.ui</file>
+        <file>ui/orderwindow.ui</file>
+        <file>ui/addproductwindow.ui</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>icons/login_icon.png</file>
+        <file>icons/cart_icon.png</file>
+        <file>icons/add_product_icon.png</file>
+    </qresource>
+</RCC>

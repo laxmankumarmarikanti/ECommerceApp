@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddProductWindow</class>
+ <widget class="QMainWindow" name="AddProductWindow">
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="nameEdit">
+      <property name="placeholderText">
+       <string>Product Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="priceEdit">
+      <property name="placeholderText">
+       <string>Price</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="stockEdit">
+      <property name="placeholderText">
+       <string>Stock</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="categoryCombo"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addButton">
+      <property name="text">
+       <string>Add Product</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
